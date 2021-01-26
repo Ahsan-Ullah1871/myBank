@@ -42,10 +42,10 @@ function getInputNumber(id) {
 }
 
 
-function updateSpanNumber(id,depositNumber) {
+function updateSpanNumber(id,addedNumber) {
     const currentNumber= document.getElementById(id).innerText;
     const currentNewNumber = parseFloat(currentNumber);
-    const totalNumber = currentNewNumber + depositNumber;
+    const totalNumber = currentNewNumber + addedNumber;
 
     document.getElementById(id).innerText = totalNumber;
     
